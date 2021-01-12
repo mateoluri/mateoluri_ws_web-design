@@ -1,0 +1,72 @@
+#header {
+margin: 0 auto;
+color: #212F3C ;
+background-color:#AAB7B8 ;
+height: 300px;
+width: 1750px;
+border-radius: 20px;
+}
+#header .title {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+    width: 700px;
+    margin: 0px auto;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: acier-bat-solid,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+#title2 .sub {
+    text-align: center;
+    font-family: apertura, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.byline {
+    border-bottom: 1px solid rgb(44, 44, 44);
+    border-top: 1px solid rgb(44, 44, 44);
+}
+#s1 {
+    text-align: center;
+    width: 1750px;
+    margin: 0px auto;
+    font-family: apertura, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+#s2 {
+    text-align: center;
+    width: 1250px;
+    margin: 0px auto;
+    font-family: apertura, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.section2 {
+    text-align: center;
+    color: #212F3C ;
+    font-family: apertura, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.list1 {
+    text-align: left;
+    margin-left: 1150px;
+    font-family: apertura, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#title3 {
+    font-family: apertura, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
