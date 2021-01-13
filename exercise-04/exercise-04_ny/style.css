@@ -36,6 +36,7 @@ section {
     height: 750px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 71px;
 }
 
 .hero-text, .hero-image {
@@ -162,7 +163,7 @@ h3 {
 
 
 @media screen and (max-width: 768px) {
-    .hero-text, .hero-image, .head {
+    .hero-text, .hero-image, .head, .hero {
         width: 100%;
     }
 
@@ -175,6 +176,9 @@ h3 {
     }
     h2 {
         font-size: 25px;
+    }
+    .hero {
+        margin-top: 52px;
     }
 } 
 
