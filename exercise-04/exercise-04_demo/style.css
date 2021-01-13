@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS FOR HEADER */
+
+.head {
+    padding: 10px;
+    background: black;
+    color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: masqualero, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;   
+}
+
+/* CSS FOR HEADER */
+
+section {
+    width: 100vw;
+}
+
+.hero {
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-text, .hero-image {
+    width: 50%;
+
+}
+
+.hero-text {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > * {
+    margin-bottom: 5%;
+}
+
+.category {
+    font-family: masqualero, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: masqualero, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;  
+    text-transform: uppercase;  
+}
+
+.blurb {
+    font-family: masqualero, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.author {
+    font-family: masqualero, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.hero-image {
+    background: url(img/cover.jpg)
+    no-repeat center center;
+    background-size: cover;
+}
+
+
+.container {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+ /* new section */
+
+ .articles {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 7%;
+    flex: 1;
+
+ }
+
+ .articlebox {
+    padding: 3%;
+    margin-top: 5%;
+
+ }
+
+ img {
+    width: 100%;
+    max-height: 711px;
+}
+
+.article-img {
+    margin-bottom: 15px;
+}
+
+.article-desc > * {
+    margin-bottom: 15px;
+}
+
+.dept {
+    color: red;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h3 {
+    font-family: operetta-12, serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.summary {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author2, .date {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.author2 {
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero-text, .hero-image, .head {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .summary {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+} 
+
+
+
+
