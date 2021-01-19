@@ -64,14 +64,13 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0px auto;
     font-size: 20px;
     min-width: 30vw;
-    height: 1200px;
+    height: 85vw;
     max-height: 85%;
     text-align: center;
     background-color: rgba(255, 244, 213, 0.3);
-    margin: 6% 0px 6% 0px;
+    
     border-radius: 15px;
     overflow: scroll;
     padding: 5% 1% 5% 1%;
@@ -136,8 +135,8 @@ img {
   }
 
   audio {
-      max-width: 1000px;
-      max-height: 50px;
+      max-width: 250px;
+      max-height: 40px;
       position: fixed;
       top: 6%;
       justify-content: center;
@@ -145,7 +144,8 @@ img {
 
 
 .text {
-    max-height: 50vw;
+    height: 85vw;
+    margin-top: 45%;
 }
 
 .footer {
@@ -216,6 +216,7 @@ img {
   @media screen and (max-width: 768px) {
     .lyrics{
         width: 98vw;
+        height: 82vh;
         padding: 0;
         margin: 0px auto;
     }
