@@ -57,6 +57,10 @@ img {
     margin-right: 5%;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 
 .lyrics {
@@ -146,7 +150,7 @@ img {
 .text {
     height: 85vw;
     padding-top: 45%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 .footer {
