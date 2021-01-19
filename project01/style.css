@@ -145,7 +145,8 @@ img {
 
 .text {
     height: 85vw;
-    margin-top: 45%;
+    padding-top: 45%;
+    padding-bottom: 5%;
 }
 
 .footer {
