@@ -33,6 +33,7 @@ $("document").ready(function () {
         $(".carousels").addClass("hide");
         $(".works1").addClass("hide");
         $(".works2").addClass("hide");
+        $(".sounds").addClass("hide");
     });
 
     $(".gfx").click(function() {
