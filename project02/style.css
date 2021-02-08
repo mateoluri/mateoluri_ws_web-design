@@ -368,7 +368,7 @@ p:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     overflow: scroll;
     margin: 0 auto;
 }
@@ -390,7 +390,7 @@ p:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     overflow: scroll;
     margin: 0 auto;
 }

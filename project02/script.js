@@ -6,7 +6,7 @@ $("document").ready(function () {
 
     $('.works1').slick({
         //dots: true,
-        //adaptiveHeight: true,
+        adaptiveHeight: true,
         infinite: true,
         slidesToShow: 1,
         centerMode: true,
@@ -97,7 +97,7 @@ $("document").ready(function () {
 
     $(".ill2").click(function() {
         $(".mobilenav").toggleClass("hidemobile");
-        $(".mobileworks2").toggleClass("hide");
+        $(".mobileworks2").toggleClass("hidemobile");
     });
 
 
