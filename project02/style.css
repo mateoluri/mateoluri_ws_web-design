@@ -117,8 +117,8 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: priori-sans, sans-serif;
-    font-weight: 300;
+    font-family: neuropol-x-light, sans-serif;
+    font-weight: 400;
     font-style: normal;
     text-align: center;
     font-size: 56px;
@@ -211,6 +211,10 @@ body {
     display: none !important;
 }
 
+.hidemobile {
+    display: none !important;
+}
+
 p:hover {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #87ffff, 0 0 40px #87ffff, 0 0 50px #87ffff, 0 0 60px #d8f8f5, 0 0 70px #e2fdfd;
 }
@@ -239,6 +243,12 @@ p:hover {
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .works1 div{
@@ -310,12 +320,90 @@ p:hover {
 }
 
 .mobile {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: priori-sans, sans-serif;
     font-weight: 300;
     font-style: normal;
     text-align: center;
+    font-size: 38px;
+    justify-content: center;
+    align-content: center;
     display: none;
+}
+
+.mobile::-webkit-scrollbar {
+    display: none;
+}
+
+.mobile {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.mobileworks1 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.mobileworks2 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.mobileworks1::-webkit-scrollbar {
+    display: none;
+}
+
+.mobileworks2::-webkit-scrollbar {
+    display: none;
+}
+
+.mobilenav {
+    list-style: none;
+}
+
+.mobileworks1 {
+    margin-top: 15%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    overflow: scroll;
+    margin: 0 auto;
+}
+
+.mobileworks1 div {
+    max-width: 80%;
+}
+
+.mobileworks1 div img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 9%;
+    object-fit: contain;
+}
+
+.mobileworks2 {
+    margin-top: 15%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    overflow: scroll;
+    margin: 0 auto;
+}
+
+.mobileworks2 div {
+    max-width: 80%;
+}
+
+.mobileworks2 div img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 9%;
+    object-fit: contain;
 }
     
 
@@ -356,7 +444,7 @@ p:hover {
     }
 
     .title {
-        font-size: 48px;
+        font-size: 20px;
     }
 
     body {
@@ -373,7 +461,7 @@ p:hover {
 
     .mobile {
         display: initial;
-        display: block;
+        display: flex;
     }
 
 } 

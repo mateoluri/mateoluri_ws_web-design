@@ -6,7 +6,7 @@ $("document").ready(function () {
 
     $('.works1').slick({
         //dots: true,
-        adaptiveHeight: true,
+        //adaptiveHeight: true,
         infinite: true,
         slidesToShow: 1,
         centerMode: true,
@@ -79,6 +79,26 @@ $("document").ready(function () {
     });
 
 
+    //mobile
+
+    $(".title").click(function() {
+        $(".mobileworks1").addClass("hidemobile");
+        $(".mobileworks2").addClass("hidemobile");
+        $(".mobilenav").toggleClass("hidemobile");
+    });
+
+    $(".gfx2").click(function() {
+        $(".mobilenav").toggleClass("hidemobile");
+        $(".mobileworks1").toggleClass("hidemobile");
+    });
+
+
+    
+
+    $(".ill2").click(function() {
+        $(".mobilenav").toggleClass("hidemobile");
+        $(".mobileworks2").toggleClass("hide");
+    });
 
 
   
