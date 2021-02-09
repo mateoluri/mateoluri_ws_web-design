@@ -186,7 +186,7 @@ body {
 
 .ill {
     position: fixed;
-    left: 36%;
+    left: 36.5%;
     top: 47%;
     font-size: 42px;
     
@@ -340,6 +340,15 @@ p:hover {
     scrollbar-width: none;  /* Firefox */
 }
 
+.wrap::-webkit-scrollbar {
+    display: none;
+}
+
+.wrap {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 .mobileworks1 {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -363,7 +372,6 @@ p:hover {
 }
 
 .mobileworks1 {
-    margin-top: 15%;
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -371,6 +379,7 @@ p:hover {
     align-items: center;
     overflow: scroll;
     margin: 0 auto;
+    margin-top: 235%;
 }
 
 .mobileworks1 div {
@@ -385,7 +394,6 @@ p:hover {
 }
 
 .mobileworks2 {
-    margin-top: 15%;
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -393,6 +401,7 @@ p:hover {
     align-items: center;
     overflow: scroll;
     margin: 0 auto;
+    margin-top: 110%;
 }
 
 .mobileworks2 div {
@@ -462,6 +471,10 @@ p:hover {
     .mobile {
         display: initial;
         display: flex;
+    }
+
+    .wrap {
+        overflow: scroll;
     }
 
 } 
